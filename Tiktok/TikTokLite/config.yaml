@@ -1,0 +1,14 @@
+minio:
+  #minio服务主机ip
+  host: 172.28.18.74
+  port: 9000
+  accessKeyID: admin
+  secretAccessKey: 12345678
+  videoBucket: video
+  imageBucket: image
+
+path:
+    #视频存储路径
+    videoPath: ./public/video
+    #图片存储路径
+    imagePath: ./public/image
