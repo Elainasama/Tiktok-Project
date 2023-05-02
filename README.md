@@ -22,7 +22,7 @@ git clone https://github.com/Elainasama/Tiktok-Project.git
 | Message | 发送消息 、 聊天记录 |
 
 ### 项目结构
-- common:数据库以及中间件的初始化
+- common：数据库以及中间件的初始化
 - controller：接受前端信息，调用service层，返回Response响应
 - dao：数据库底层增删改查操作
 - logger：zap日志配置
