@@ -1,0 +1,19 @@
+minio:
+    #minio服务主机ip
+    host: 172.28.125.242
+    port: 9000
+    accessKeyID: admin
+    secretAccessKey: 12345678
+    videoBucket: video
+    imageBucket: image
+redis:
+    #redis服务主机ip
+    host: 127.0.0.1
+    port: 6379
+    password:
+    db: 0
+path:
+    #视频存储路径
+    videoPath: ./public/video
+    #图片存储路径
+    imagePath: ./public/image
